@@ -1,8 +1,8 @@
 # Conecpts Makefile for ease of building
 # Jacob Lowe
 CXX = g++
-EXE = BinarySearch
-SOURCES = binary-search.cpp
+EXE = TwoCrystalBalls
+SOURCES = crystal_balls.cpp
 OBJS = $(addsuffix .o, $(basename $(notdir $(SOURCES))))
 CXXFLAGS = -std=c++14 -g -Wall -Wformat -static-libgcc -static-libstdc++
 # Compile Objs
