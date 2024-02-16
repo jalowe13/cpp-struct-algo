@@ -1,8 +1,8 @@
 # Conecpts Makefile for ease of building
 # Jacob Lowe
 CXX = g++
-EXE = LSearchTest
-SOURCES = linear-search.cpp
+EXE = BinarySearch
+SOURCES = binary-search.cpp
 OBJS = $(addsuffix .o, $(basename $(notdir $(SOURCES))))
 CXXFLAGS = -std=c++14 -g -Wall -Wformat -static-libgcc -static-libstdc++
 # Compile Objs
