@@ -1,8 +1,8 @@
 # Conecpts Makefile for ease of building
 # Jacob Lowe
 CXX = g++
-EXE = dijkstras
-SOURCES = dijkstras.cpp
+EXE = task_scheduler
+SOURCES = task_scheduler.cpp
 
 OBJS = $(addsuffix .o, $(basename $(notdir $(SOURCES))))
 CXXFLAGS = -std=c++14 -g -Wall -Wformat -static-libgcc -static-libstdc++
