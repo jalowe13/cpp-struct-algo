@@ -34,8 +34,11 @@ struct Task {
 
 // Read the string vector into multiple vectors for start time, end time, and
 // function action
-void parse_task_log() {
-  // TODO
+void parse_task_log(std::vector<std::string> &tasks) {
+  // Iterate over tasks
+  for (size_t i = 0; i < tasks.size(); i++) {
+    std::cout << tasks[i] << std::endl;
+  }
 }
 
 // Read the task log into a string vector
@@ -55,5 +58,6 @@ std::vector<std::string> get_task_log() {
 
 int main() {
   std::cout << "Task Scheduling\n";
-  get_task_log();
+  std::vector<std::string> tasks = get_task_log();
+  parse_task_log(tasks);
 }

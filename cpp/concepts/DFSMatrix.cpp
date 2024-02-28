@@ -21,7 +21,6 @@ void print_vec(std::vector<int> *p_test_vector) {
     std::cout << (*p_test_vector)[i] << (i != vec_len - 1 ? "," : "]\n");
   }
 }
-
 // adjacency: Graph
 // current_num: number currently on
 // needed: number that needs to be reached

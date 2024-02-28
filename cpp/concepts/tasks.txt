@@ -1,7 +1,6 @@
 1:start:5
-2:stop:6
-3:start:7
-4:stop:8
+2:start:7
+1:stop:8
 5:start:9
 6:stop:10
 7:start:11
